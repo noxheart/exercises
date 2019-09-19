@@ -15,7 +15,7 @@ namespace exercise1
 			int numberTwo = Convert.ToInt32(inputTwo);
 			int sum = numberOne + numberTwo;
 
-            Console.WriteLine("Summan är: " + sum);
+            Console.WriteLine("Summan är: scooby doo " + sum);
         }
     }
 }
