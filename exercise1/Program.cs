@@ -6,16 +6,23 @@ namespace exercise1
     {
         static void Main(string[] args)
         {
-			Console.Write("Tal 1: ");
-			string inputOne = Console.ReadLine();
-			Console.Write("Tal 2: ");
-			string inputTwo = Console.ReadLine();
+            string input = "";
+			Console.WriteLine("Är det fint väder?");
+            input = Console.ReadLine();
+            input = input.ToUpper();
 
-			int numberOne = Convert.ToInt32(inputOne);
-			int numberTwo = Convert.ToInt32(inputTwo);
-			int sum = numberOne + numberTwo;
-
-            Console.WriteLine("Summan är: scooby doo " + sum);
+            if (input == "J")
+            {
+                Console.WriteLine("Vi går på picknick!");
+            }
+            else if (input == "N")
+            {
+                Console.WriteLine("Vi stannar inne och läser en bok");
+            }
+            else 
+            {
+                Console.WriteLine("Jag förstår inte");
+            }
         }
     }
 }
